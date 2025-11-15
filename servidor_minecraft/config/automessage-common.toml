@@ -1,0 +1,6 @@
+messages = ["§2Thank you very much for downloading HORIZONS§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"]
+links = ["https://www.bisecthosting.com/lupin?r=automessage"]
+intervals = [5]
+soft_limits = [1]
+hard_limits = [1]
+am_enabled = true

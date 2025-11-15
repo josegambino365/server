@@ -1,0 +1,150 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				axolotl = true
+				bee = true
+				cow = true
+				pig = true
+				allay = true
+				skeleton = true
+				bat = true
+				husk = true
+				hoglin = true
+				rabbit = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				salmon = true
+				wither_skeleton = true
+				item_frame = true
+				horse = true
+				vindicator = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				parrot = true
+				creeper = true
+				enderman = true
+				chicken = true
+				donkey = true
+				tropical_fish = true
+				fox = true
+				chest_minecart = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				cat = true
+				zombie = true
+				guardian = true
+				sheep = true
+				player = true
+				pufferfish = true
+				illusioner = true
+				potion = true
+				wolf = true
+				villager = true
+				zombie_villager = true
+				tnt_minecart = true
+				elder_guardian = true
+				boat = true
+				polar_bear = true
+				painting = true
+				cave_spider = true
+				cod = true
+				witch = true
+				spider = true
+
+			[light_sources.settings.entities.naturalist]
+				rattlesnake = true
+				zebra = true
+				deer = true
+				snail = true
+				canary = true
+				rhino = true
+				bluejay = true
+				coral_snake = true
+				lion = true
+				vulture = true
+				boar = true
+				robin = true
+				bass = true
+				tortoise = true
+				duck = true
+				giraffe = true
+				butterfly = true
+				bear = true
+				sparrow = true
+				lizard = true
+				elephant = true
+				finch = true
+
+			[light_sources.settings.entities.graveyard]
+				acolyte = true
+				corrupted_vindicator = true
+				skeleton_creeper = true
+				corrupted_pillager = true
+				ghoul = true
+
+			[light_sources.settings.entities.smallships]
+				brigg = true
+
+			[light_sources.settings.entities.adventurez]
+				deer = true
+				iguana = true
+				amethyst_golem = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				ocean_creeper = true
+				desert_creeper = true
+				dripstone_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				spruce_creeper = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				mauler = true
+				crab = true
+				rascal = true
+
+			[light_sources.settings.entities.iceandfire]
+				pixie = true
+				ice_dragon = true
+				lightning_dragon = true
+				ghost = true
+				hippocampus = true
+				dragon_multipart = true
+				troll = true
+				ice_dragon_charge = true
+				fire_dragon = true
+				amphithere = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				lich = true
+

@@ -1,0 +1,6 @@
+ENABLE = true
+SYSTEM_TIME_ONLY = false
+DISPLAY_CLOCK_ICONS = true
+DISPLAY_24_HOUR = true
+DISPLAY_LOCATION = "lower-left"
+DISPLAY_ICON = ""
